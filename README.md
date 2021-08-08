@@ -1,1 +1,0 @@
-# Leftjose-Jose-HWpandascore0002
