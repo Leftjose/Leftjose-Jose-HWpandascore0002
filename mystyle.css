@@ -1,0 +1,29 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1a5bbc;
+    color: white;
+    font-size: 30px;
+  }
+
+  .tabslinks li {
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tabs .current {
+    background: #ededed;
+    color: #000;
+}
+
+.tab-content {
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.tab-content.current {
+    display: inherit;
+}
