@@ -1,29 +1,179 @@
-.header {
-    padding: 60px;
+/* Streach contenet in Body from edge to edge  */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
     text-align: center;
-    background: #1a5bbc;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom:3px solid #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
     color: white;
-    font-size: 30px;
   }
 
-  .tabslinks li {
-    color: #222;
-    display: inline-block;
-    padding: 10px 15px;
+
+
+  /* .img {
+
+    object-fit: cover;
+
+  } */
+
+
+  .cont {
+
+    position: absolute;
+    right: 150px;
+    
+
+
+  }
+
+
+
+  .headline {
+
+    width: 100%;
+    border-bottom: solid 4px #666;
+    text-align: center;
+
+
+  }
+  /* Box for about me */
+  .about  {
+
+    width: 50%;
+    padding: 10px;
+    
+    margin: auto;
+    text-align: center;
+    
+    
+
+  }
+
+
+
+
+
+  .worka {
+    width: 100%;
+    text-align: center;
+    
+  
+  }
+
+  /* Box for work */
+  .work {
+    width: 1000px;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 50px;
+    text-align: center;
     cursor: pointer;
+    
+    
+
+  }
+
+
+
+ .work:hover{
+   background-color:  rgb(221, 222, 224);
+ }
+
+
+
+
+.contactme {
+  width: 100%;
+  text-align: center;
+  
+
 }
 
-.tabs .current {
-    background: #ededed;
-    color: #000;
-}
 
-.tab-content {
-    display: none;
-    background: #ededed;
-    padding: 15px;
-}
+  /* Box for Contact Me */
+  .contact {
+    width: 1000px;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
 
-.tab-content.current {
-    display: inherit;
-}
+  /* .contact:hover{
+    background-color: rgb(221, 222, 224);
+
+  } */
+
+   /* Box for Resume */
+  .web {
+    width: 1000px;
+    padding: 50px;
+    border: 5px solid black;
+    margin: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .web:hover{
+    background-color: rgb(221, 222, 224);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
